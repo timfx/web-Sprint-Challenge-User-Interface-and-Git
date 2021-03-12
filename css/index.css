@@ -151,6 +151,7 @@ header a {
     justify-content: center;
 }
 
+
 #box1 {
     background-color: teal;
 }
@@ -223,3 +224,51 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About Page CSS*/
+
+
+.about-section {
+    border-bottom: dotted 1px black;
+    font-weight: 700;
+}
+
+.about-section p {
+    margin-bottom: 1em;
+}
+
+.gallery {
+    max-width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+}
+
+.gallery div {
+    width: 45%;
+    height: 25em;
+    border-bottom: dotted 1px black;
+    display: flex column;
+    align-items: center;
+    margin-right: .1em;
+}
+
+.gallery div img {
+    margin-top: 15px;
+}
+
+.lets-work{
+    margin: 2em 0;
+    font-weight: 700;
+}
+
+.button {
+    background: #fff;
+    border-radius: 10px;
+    padding: .5em 1em;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+
